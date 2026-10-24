@@ -104,7 +104,8 @@ fun Home(st: Store, onLogout: () -> Unit) {
                     row.forEach { m ->
                         val sel = mode == m.key
                         Button({ mode = m.key }, colors = ButtonDefaults.buttonColors(
-                            containerColor = if (sel) Color(0xFF7C5CFF) else Color(0xFF222222))) { Text(m.label) }
+                            containerColor = if (sel) Color(0xFF7C5CFF) else Color(0xFF222222),
+                            contentColor = Color.White)) { Text(m.label) }
                     }
                 }
             }
