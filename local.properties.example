@@ -1,0 +1,2 @@
+# Copy to local.properties (Android Studio creates it automatically; just ADD this line)
+ANTHROPIC_API_KEY=your_api_key_here

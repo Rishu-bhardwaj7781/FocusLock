@@ -1,0 +1,3 @@
+<resources>
+    <string name="service_desc">FocusLock detects which app is open and sends you back home during your focus session. It does not read any content on screen.</string>
+</resources>
